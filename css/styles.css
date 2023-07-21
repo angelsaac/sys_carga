@@ -13,6 +13,19 @@ footer {
 header{
     background: #f7d966;
 }
+.btn-page{
+    border: none;
+    cursor: pointer;
+    background-color: #0266ae;
+}
+.btn-page-right {
+    border-radius: 0.6rem 0 0 0.6rem;
+    margin-top: 0.3rem;
+}
+.btn-page-left {
+    border-radius:  0 0.6rem 0.6rem 0 ;
+    margin-top: 0.3rem;
+}
 .div_bottom{
     position: absolute;
     bottom: 40px;
@@ -22,3 +35,15 @@ header{
     width: 20rem;
     height: 24rem;
 }
+
+@media(min-width: 768px) and (max-width: 992px){
+   .col-md-responsive{
+    margin-top: 1rem;
+   } 
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-md-responsive-all {
+        margin: 0 auto 2rem auto;
+    }
+ }
