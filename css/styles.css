@@ -1,3 +1,7 @@
+/*Globales*/
+body{
+    background-color: #fbfdff;
+}
 footer {
     position:fixed;
     left:0px;
@@ -5,11 +9,16 @@ footer {
     height:30px;
     width:100%;
     background:#0266ae;
- }
+}
 header{
     background: #f7d966;
 }
 .div_bottom{
     position: absolute;
     bottom: 40px;
+}
+
+.card-size{
+    width: 20rem;
+    height: 24rem;
 }
