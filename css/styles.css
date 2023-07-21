@@ -1,0 +1,15 @@
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#0266ae;
+ }
+header{
+    background: #f7d966;
+}
+.div_bottom{
+    position: absolute;
+    bottom: 40px;
+}
